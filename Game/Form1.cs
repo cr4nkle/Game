@@ -47,6 +47,7 @@ namespace Game
                 patron = new Patron(pbMain.Width / 2 + randX.Next(-400, 400), pbMain.Height / 2 + randY.Next(-300,300), 0);
                 objects.Add(patron);
             };
+
             if(patron == null)
             {
                 patron = new Patron(pbMain.Width / 2 + randX.Next(-400, 400), pbMain.Height / 2 + randY.Next(-300, 300), 0);
